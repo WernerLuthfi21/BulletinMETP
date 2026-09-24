@@ -10,8 +10,8 @@
    key here.
    ========================================================================== */
 window.METP_CONFIG = {
-  supabaseUrl: "",       // e.g. "https://abcdxyzcompany.supabase.co"
-  supabaseAnonKey: "",   // the project's public "anon" key
+  supabaseUrl: "https://bkdzkxezpabfqbhsgzhb.supabase.co",       // e.g. "https://abcdxyzcompany.supabase.co"
+  supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJrZHpreGV6cGFiZnFiaHNnemhiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAxMjIyMjcsImV4cCI6MjEwNTY5ODIyN30.cZG5lyh9bf0jKCxmtN5-nYiaG-0pCCXgFqSt0ZAJZ0s",   // the project's public "anon" key
   bucket: "bulletins",   // private Storage bucket that holds uploaded issues
-  maxUploadMB: 25        // client-side upload limit (also set it in Supabase)
+  maxUploadMB: 50        // client-side upload limit (also set it in Supabase)
 };
